@@ -9,7 +9,6 @@
 	--mainOrange: #f15025;
 }
 body {
-	font-family: 'Caveat', cursive;
+	font-family: open-sans;
 	color: wheat;
-	background: var(--mainOrange);
 }
