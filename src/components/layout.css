@@ -1,1 +1,15 @@
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+:root {
+	--mainOrange: #f15025;
+}
+body {
+	font-family: 'Caveat', cursive;
+	color: wheat;
+	background: var(--mainOrange);
+}

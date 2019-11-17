@@ -4,7 +4,7 @@ export default class NavbarIcons extends Component {
 	render() {
 		return (
 			<div>
-				<h1> Icon content frm Navbar Icons</h1>
+				<h1> Icon content from Navbar Icons</h1>
 			</div>
 		);
 	}
