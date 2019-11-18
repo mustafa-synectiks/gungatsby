@@ -12,18 +12,18 @@ export default class NavbarLink extends Component {
 			},
 			{
 				id: 1,
-				path: '/About/',
+				path: '/about/',
 				name: 'About'
 			},
 			{
 				id: 2,
-				path: '/Contact/',
+				path: '/contact/',
 				name: 'Contact'
 			},
 			{
 				id: 3,
-				path: '/Gallery/',
-				name: 'Gallery'
+				path: '/menu/',
+				name: 'Menu'
 			}
 		]
 	};
@@ -64,10 +64,7 @@ const LinkWrapper = styled.ul`
 			padding: 0.5rem 1rem 0.5rem 1.3rem;
 		}
 	}
-	height: ${(props) =>
-
-			props.open ? '152px' :
-			'0'};
+	height: ${(props) => (props.open ? '152px' : '0')};
 	overflow: hidden;
 	${styles.transObject({ time: '0.5s', type: 'linear' })};
 	@media (min-width: 768px) {
