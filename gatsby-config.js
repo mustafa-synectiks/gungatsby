@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
-		title: `Guns`,
-		description: `Guns Destroys Enemies`,
+		title: `Ecommerce`,
+		description: `Shop online`,
 		author: `Mustafa`
 	},
 	plugins: [
