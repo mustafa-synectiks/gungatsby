@@ -6,6 +6,6 @@ function HomeHeader({ img, children }) {
 
 const IndexHeader = styled.header`
 	min-height: calc(100vh - 97.78px);
-	background: url(${(props) => props.img});
+	background: url(${(props) => props.img}) center/cover fixed no-repeat;
 `;
 export { HomeHeader };
