@@ -13,7 +13,14 @@ export default class NavbarLink extends Component {
 			{
 				id: 1,
 				path: '/about/',
-				name: 'About'
+				name: 'About',
+				sub: [
+					{
+						id: 1,
+						path: '/about/mypage',
+						name: 'mypage'
+					}
+				]
 			},
 			{
 				id: 2,
