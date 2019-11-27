@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import { Gi3DHammer } from 'react-icons/gi';
-import logo from '../../../images/katana.svg';
 import { FaAlignRight } from 'react-icons/fa';
 import styled from 'styled-components';
-import styles from '../../../utils';
 export default class NavbarHeader extends Component {
 	render() {
 		const { handleNavbar } = this.props;
