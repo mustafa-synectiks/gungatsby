@@ -86,15 +86,18 @@ const GalleryWrapper = styled.div`
 		grid-template-columns: repeat(3, 1fr);
 	}
 	@media (min-width: 992px) {
+		.gatsby-image-wrapper {
+			height: 100%;
+		}
 		grid-template-areas: 'one one two two' 'one one three three';
-	}
-	.item-1 {
-		grid-area: one;
-	}
-	.item-2 {
-		grid-area: two;
-	}
-	.item-3 {
-		grid-area: three;
+		.item-1 {
+			grid-area: one;
+		}
+		.item-2 {
+			grid-area: two;
+		}
+		.item-3 {
+			grid-area: three;
+		}
 	}
 `;
