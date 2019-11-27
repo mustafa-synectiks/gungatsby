@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import QuickInfo from '../components/HomePageComponent/QuickInfo';
-import Gallery from '../components/HomePageComponent/Gallery';
+import Gallery from '../components/HomePageComponent/GalleryMulti';
 import { HomeHeader, Banner, BannerButton } from '../utils';
 import img from '../images/bcg/homeBcg.jpeg';
 
