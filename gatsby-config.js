@@ -17,6 +17,15 @@ module.exports = {
 		`gatsby-plugin-sharp`,
 		`gatsby-plugin-sass`,
 		{
+			resolve: `gatsby-source-contentful`,
+			options: {
+				spaceId: '3cjdqe68muab',
+				// Learn about environment variables: https://gatsby.dev/env-vars
+				accessToken: 'kDISf5LRNUFxCifOlZa6_lCIu5CU75JnJovc0r4Xb28'
+				// host: `preview.contentful.com`
+			}
+		},
+		{
 			resolve: `gatsby-plugin-styled-components`,
 			options: {
 				// Add any options here
