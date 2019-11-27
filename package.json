@@ -1,5 +1,5 @@
 {
-	"name": "eCommerce🛒",
+	"name": "eCommerce",
 	"private": true,
 	"description": "Ecommerce website for online shopping",
 	"version": "0.1.0",
@@ -29,9 +29,7 @@
 		"prettier": "^1.19.1",
 		"react-dev-utils": "^9.1.0"
 	},
-	"keywords": [
-		"gatsby"
-	],
+	"keywords": [ "gatsby" ],
 	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build",
