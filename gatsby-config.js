@@ -1,3 +1,6 @@
+require('dotenv').config({
+	path: `.env.${process.env.NODE_ENV}`
+});
 module.exports = {
 	siteMetadata: {
 		title: `Ecommerce`,
@@ -19,9 +22,9 @@ module.exports = {
 		{
 			resolve: `gatsby-source-contentful`,
 			options: {
-				spaceId: '3cjdqe68muab',
+				spaceId: process.env.SPACE_ID,
 				// Learn about environment variables: https://gatsby.dev/env-vars
-				accessToken: 'kDISf5LRNUFxCifOlZa6_lCIu5CU75JnJovc0r4Xb28'
+				accessToken: process.env.ACCESS_TOKEN
 				// host: `preview.contentful.com`
 			}
 		},
